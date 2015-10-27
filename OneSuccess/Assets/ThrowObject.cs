@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ThrowObject : MonoBehaviour {
+public class ThrowObject : MonoBehaviour { //add this to the player
 
 	public float rayDistance = 5;
 	
