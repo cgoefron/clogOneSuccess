@@ -10,7 +10,7 @@ public class changesky : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-	
+		InvokeRepeating ("switchLight", 0, 3f);
 	}
 	
 	// Update is called once per frame
@@ -30,5 +30,14 @@ public class changesky : MonoBehaviour {
 
 		}
 	
+	}
+	void switchLight() {
+		//turn the light off if on, or on if off
+		Light sunlight = theSun.GetComponent<Light> ();
+		if (sunlight.enabled == true) {
+			sunlight.enabled = false;
+		} else {
+			sunlight.enabled = true;
+		}
 	}
 }
