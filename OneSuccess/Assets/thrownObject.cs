@@ -17,6 +17,10 @@ public class thrownObject : MonoBehaviour { //add this to the object being throw
 		if (other.tag != "Monster") {
 			Application.LoadLevel("winScene");; //make a win message
 		}
+		if (other.tag != "Boundary") {
+			Destroy(gameObject);
+		}
+		Debug.Log( "collide (name) : " + other.gameObject.name );
 	}
 
 
