@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: 35934775a1ea55848b576b17747a8c85
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Back
+    100002: Barrel
+    100004: GHead
+    100006: Gun1
+    100008: Gun101
+    100010: Gun2
+    100012: Gun201
+    100014: Gun202
+    100016: Gun203
+    100018: Gun204
+    100020: Gun3
+    100022: Head
+    100024: LL1
+    100026: LL101
+    100028: LL2
+    100030: LL3
+    100032: Middle
+    100034: RL1
+    100036: RL101
+    100038: RL2
+    100040: RL3
+    100042: Top
+    100044: //RootNode
+    100046: Wings1
+    100048: Wings2
+    400000: Back
+    400002: Barrel
+    400004: GHead
+    400006: Gun1
+    400008: Gun101
+    400010: Gun2
+    400012: Gun201
+    400014: Gun202
+    400016: Gun203
+    400018: Gun204
+    400020: Gun3
+    400022: Head
+    400024: LL1
+    400026: LL101
+    400028: LL2
+    400030: LL3
+    400032: Middle
+    400034: RL1
+    400036: RL101
+    400038: RL2
+    400040: RL3
+    400042: Top
+    400044: //RootNode
+    400046: Wings1
+    400048: Wings2
+    2300000: Back
+    2300002: Barrel
+    2300004: GHead
+    2300006: Gun1
+    2300008: Gun101
+    2300010: Gun2
+    2300012: Gun201
+    2300014: Gun202
+    2300016: Gun203
+    2300018: Gun204
+    2300020: Gun3
+    2300022: Head
+    2300024: LL1
+    2300026: LL101
+    2300028: LL2
+    2300030: LL3
+    2300032: Middle
+    2300034: RL1
+    2300036: RL101
+    2300038: RL2
+    2300040: RL3
+    2300042: Top
+    2300044: Wings1
+    2300046: Wings2
+    3300000: Back
+    3300002: Barrel
+    3300004: GHead
+    3300006: Gun1
+    3300008: Gun101
+    3300010: Gun2
+    3300012: Gun201
+    3300014: Gun202
+    3300016: Gun203
+    3300018: Gun204
+    3300020: Gun3
+    3300022: Head
+    3300024: LL1
+    3300026: LL101
+    3300028: LL2
+    3300030: LL3
+    3300032: Middle
+    3300034: RL1
+    3300036: RL101
+    3300038: RL2
+    3300040: RL3
+    3300042: Top
+    3300044: Wings1
+    3300046: Wings2
+    4300000: Middle
+    4300002: Gun3
+    4300004: GHead
+    4300006: Top
+    4300008: Barrel
+    4300010: Gun2
+    4300012: Gun201
+    4300014: Gun202
+    4300016: Gun203
+    4300018: Gun204
+    4300020: Gun1
+    4300022: Gun101
+    4300024: Head
+    4300026: Back
+    4300028: Wings1
+    4300030: Wings2
+    4300032: RL1
+    4300034: RL101
+    4300036: LL1
+    4300038: LL101
+    4300040: RL2
+    4300042: RL3
+    4300044: LL2
+    4300046: LL3
+    7400000: WaspFlying
+    7400002: WaspFlyingLooking
+    7400004: WaspHit
+    7400006: WaspAttackGun1
+    7400008: WaspAttackGun1Start
+    7400010: WaspAttackGun1Loop
+    7400012: WaspAttackGun1Finish
+    7400014: WaspAttackGun2
+    7400016: WaspAttackGun2Start
+    7400018: WaspAttackGun2Loop
+    7400020: WaspAttackGun2Finish
+    7400022: WaspAttackGun3
+    7400024: WaspAttackGun3Start
+    7400026: WaspAttackGun3Loop
+    7400028: WaspAttackGun3Finish
+    7400030: WaspDeath
+    7400032: WaspDodge
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WaspFlying
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspFlyingLooking
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspHit
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 249
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspAttackGun1
+      takeName: Take 001
+      firstFrame: 250
+      lastFrame: 349
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspAttackGun1Start
+      takeName: Take 001
+      firstFrame: 350
+      lastFrame: 374
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspAttackGun1Loop
+      takeName: Take 001
+      firstFrame: 275
+      lastFrame: 294
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspAttackGun1Finish
+      takeName: Take 001
+      firstFrame: 295
+      lastFrame: 349
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspAttackGun2
+      takeName: Take 001
+      firstFrame: 350
+      lastFrame: 449
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspAttackGun2Start
+      takeName: Take 001
+      firstFrame: 350
+      lastFrame: 374
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspAttackGun2Loop
+      takeName: Take 001
+      firstFrame: 375
+      lastFrame: 394
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspAttackGun2Finish
+      takeName: Take 001
+      firstFrame: 395
+      lastFrame: 449
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspAttackGun3
+      takeName: Take 001
+      firstFrame: 450
+      lastFrame: 549
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspAttackGun3Start
+      takeName: Take 001
+      firstFrame: 450
+      lastFrame: 474
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspAttackGun3Loop
+      takeName: Take 001
+      firstFrame: 475
+      lastFrame: 484
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspAttackGun3Finish
+      takeName: Take 001
+      firstFrame: 490
+      lastFrame: 749
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspDeath
+      takeName: Take 001
+      firstFrame: 550
+      lastFrame: 649
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WaspDodge
+      takeName: Take 001
+      firstFrame: 650
+      lastFrame: 749
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Middle
+        weight: 1
+      - path: Middle/Back
+        weight: 1
+      - path: Middle/Gun1
+        weight: 1
+      - path: Middle/Gun1/Gun101
+        weight: 1
+      - path: Middle/Gun2
+        weight: 1
+      - path: Middle/Gun2/Gun201
+        weight: 1
+      - path: Middle/Gun2/Gun202
+        weight: 1
+      - path: Middle/Gun2/Gun203
+        weight: 1
+      - path: Middle/Gun2/Gun204
+        weight: 1
+      - path: Middle/Gun3
+        weight: 1
+      - path: Middle/Gun3/GHead
+        weight: 1
+      - path: Middle/Gun3/GHead/Barrel
+        weight: 1
+      - path: Middle/Gun3/GHead/Top
+        weight: 1
+      - path: Middle/Head
+        weight: 1
+      - path: Middle/LL1
+        weight: 1
+      - path: Middle/LL1/LL101
+        weight: 1
+      - path: Middle/LL2
+        weight: 1
+      - path: Middle/LL3
+        weight: 1
+      - path: Middle/RL1
+        weight: 1
+      - path: Middle/RL1/RL101
+        weight: 1
+      - path: Middle/RL2
+        weight: 1
+      - path: Middle/RL3
+        weight: 1
+      - path: Middle/Wings1
+        weight: 1
+      - path: Middle/Wings2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

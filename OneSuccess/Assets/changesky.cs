@@ -10,7 +10,7 @@ public class changesky : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		InvokeRepeating ("switchLight", 0, 3f);
+		InvokeRepeating ("switchLight", 0, 180f);
 	}
 	
 	// Update is called once per frame
