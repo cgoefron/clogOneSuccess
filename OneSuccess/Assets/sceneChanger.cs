@@ -5,8 +5,8 @@ public class sceneChanger : MonoBehaviour { //Use this script if we make a start
 
 
 	void Start () {
-		if (Input.GetKeyDown ("x")) {
-			Application.LoadLevel("ChristinaScene"); //change to whatever game scene when ready
+		if (Input.GetKeyDown ("r")) {
+			Application.LoadLevel("ChristinaScene"); //change to whatever game scene we're using when ready
 		}
 }
 }
