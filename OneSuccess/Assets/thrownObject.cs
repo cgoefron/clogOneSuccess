@@ -9,16 +9,17 @@ public class thrownObject : MonoBehaviour { //add this to the object being throw
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody>();
-		rb.AddForce ( transform.forward * 300 + transform.up * 50 );
+		rb.AddForce ( transform.forward * 800 + transform.up * 500 );
 	}
 	
 	// Update is called once per frame
 	void OnTriggerEnter(Collider other) {
-		if (other.tag != "Monster") {
-			Application.LoadLevel("winScene");; //make a win message
+		if (other.tag == "Mouth") {
+			Application.LoadLevel("winScene"); //make a win message
 		}
-		if (other.tag != "Boundary") {
-			Destroy(gameObject);
+		else {
+			Application.LoadLevel("endScene"); //make lose message
+			//Destroy(gameObject);
 		}
 		Debug.Log( "collide (name) : " + other.gameObject.name );
 	}
