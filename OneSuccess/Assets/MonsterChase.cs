@@ -18,9 +18,9 @@ public class MonsterChase : MonoBehaviour { //add this to the monster
 		Debug.Log (transform.position);
 	}
 
-	void onTriggerEnter(Collider other){
+	void OnTriggerEnter(Collider other){
 		if (other.gameObject.CompareTag( "Player") == true ) {
-			Application.LoadLevel("endScene");; //make a "death" message
+			Application.LoadLevel("endScene"); //make a "death" message
 		}
 	}
 }
