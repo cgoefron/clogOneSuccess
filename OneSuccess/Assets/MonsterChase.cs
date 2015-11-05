@@ -8,7 +8,7 @@ public class MonsterChase : MonoBehaviour { //add this to the monster
 	
 
 	void Start () {
-		playerPosition = GameObject.Find ("Player").transform;
+		playerPosition = GameObject.FindGameObjectWithTag ("Player").transform;
 	}
 	
 
