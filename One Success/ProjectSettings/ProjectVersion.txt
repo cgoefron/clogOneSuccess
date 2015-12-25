@@ -1,0 +1,6 @@
+<<<<<<< HEAD:One Success/ProjectSettings/ProjectVersion.txt
+m_EditorVersion: 5.1.1f1
+=======
+m_EditorVersion: 5.1.3f1
+>>>>>>> ea601a10a09f8badc5675156a7e71ec6d1d99273:OneSuccess/ProjectSettings/ProjectVersion.txt
+m_StandardAssetsVersion: 0
